@@ -17,6 +17,7 @@ class mainWindow(tk.Tk):
     def windowConfig(self):
         self.title("Finance Manager")
         util_window.centerWindow(self)
+        self.resizable(False, False)
 
     def frames(self):
         self.header = tk.Frame(bg=COLOR_BARRA_SUPERIOR, height=50)
